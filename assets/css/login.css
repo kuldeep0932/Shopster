@@ -1,0 +1,133 @@
+.dark_icon{
+    display: none;
+}
+.header_top .main{
+    justify-content: center;
+}
+.form_head {
+    display: flex;
+    justify-content: center;
+    background: var(--coloroffwhite);
+    height: 70px;
+    font-size: 39px;
+    align-items: center;
+    font-weight: 600;
+}
+.form_main_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.form_container {
+    border: 1px solid var(--coloroffwhite);
+    width: 27%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.form_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+.form_container form input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    outline: none;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+.form_container form i{
+    margin: 5px;
+}
+#email_box{
+    border: 1px solid var(--coloroffwhite);
+}
+#phone_box {
+    border: 1px solid var(--coloroffwhite);
+}
+#address_box {
+    border: 1px solid var(--coloroffwhite);
+}
+#address_box textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+}
+#password_box{
+    border: 1px solid var(--coloroffwhite);
+}
+#button input{
+    width: fit-content;
+    padding: 0;
+    background-color:transparent;
+}
+#button{
+    width: 30%;
+    background-color: var(--coloroffwhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--coloroffwhite);
+    cursor: pointer;
+}
+#button:hover input{
+    color: var(--colorred);
+    cursor: pointer;
+}
+#button:hover{
+    color: var(--colorred);
+    background-color: var(--colorwhite);
+    border: 1px solid var(--colorred);
+}
+.form_container form .forgot a {
+    text-decoration: none;
+    color: var(--colorred);
+    font-size: 14px;
+}
+.form_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login a{
+    text-decoration: none;
+    color: var(--colorblack);
+    font-size: 14px;
+}
+.login a:hover{
+    color: var(--colorred);
+}
+.login a span {
+    color: var(--colorred);
+}
+.login a:hover span {
+    color: var(--colorblack);
+}
+
+
+
+
+#name_box{
+    border: 1px solid var(--coloroffwhite);
+}
+#last_name_box{
+    border: 1px solid var(--coloroffwhite);
+}
+#cpassword_box{
+    border: 1px solid var(--coloroffwhite);
+}
+.signup a{
+    text-decoration: none;
+    color: var(--colorblack);
+    font-size: 14px;
+}
+.signup a:hover{
+    color: var(--colorred);
+}
